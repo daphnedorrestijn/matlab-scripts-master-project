@@ -47,7 +47,8 @@ if ~exist('figtype','var'), figtype='b'; end
 h=gcf;
 
 % Window size:
-set(h,'Position',[360 80 560/sqrt(2) 560]);
+%set(h,'Position',[360 80 560/sqrt(2) 560]);
+set(h,'Position',[360 80 1180 460]);
 set(gca,'Position',[0 0 1 1]);   % location of the figure in the window
 set(gca,'PlotBoxAspectRatio',[1/sqrt(2) 1 1]);
 
@@ -56,7 +57,8 @@ set(h,'PaperUnits','centimeters');
 set(h,'PaperOrientation','portrait');
 set(h,'PaperType','A4');
 %set(h,'PaperSize',[21 29.7]);
-set(h,'PaperPosition',[0 0 21 29.7]);
+%set(h,'PaperPosition',[0 0 21 29.7]);
+set(h,'PaperPosition',[0 0 46 118]);
 set(h,'PaperPositionMode','manual');
 set(h,'InvertHardcopy','off');   % keep the user background mode
 
