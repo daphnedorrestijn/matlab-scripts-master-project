@@ -48,17 +48,21 @@ h=gcf;
 
 % Window size:
 %set(h,'Position',[360 80 560/sqrt(2) 560]);
-set(h,'Position',[360 80 1180 460]);
+set(h,'Position',[360 80 1200 460]);
+%set(h,'Position',[360 80 840 1180]);
 set(gca,'Position',[0 0 1 1]);   % location of the figure in the window
-set(gca,'PlotBoxAspectRatio',[1/sqrt(2) 1 1]);
+%set(gca,'PlotBoxAspectRatio',[1/sqrt(2) 1 1]);
+set(gca,'PlotBoxAspectRatio',[42 29.7 1]);
 
 % Printing settings:
 set(h,'PaperUnits','centimeters');
+set(h,'PaperSize',[46 120]);
 set(h,'PaperOrientation','portrait');
-set(h,'PaperType','A4');
+%set(h,'PaperType','A3');
 %set(h,'PaperSize',[21 29.7]);
 %set(h,'PaperPosition',[0 0 21 29.7]);
-set(h,'PaperPosition',[0 0 46 118]);
+set(h,'PaperPosition',[0 0 46 120]);
+%set(h,'PaperPosition',[0 0 29.7 42]);
 set(h,'PaperPositionMode','manual');
 set(h,'InvertHardcopy','off');   % keep the user background mode
 
